@@ -42,7 +42,9 @@ function wagesEarnedOnDate(date) {
 }
 
 function calculatePayroll(arr) {
-  
+  return arr.reduce(function(memo, i) {
+    return memo + allWagesFor.call(i)
+  }, 0)
 }
 
 function findEmployeeByFirstName(arr, str) {
