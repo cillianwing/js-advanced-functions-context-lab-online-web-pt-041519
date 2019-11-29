@@ -45,8 +45,8 @@ function calculatePayroll() {
   
 }
 
-function findEmployeeByFirstName() {
-  
+function findEmployeeByFirstName(arr, str) {
+  let employee = arr.
 }
 
 /*
