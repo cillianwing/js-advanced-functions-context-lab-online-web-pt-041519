@@ -49,8 +49,7 @@ function findEmployeeByFirstName(arr, str) {
   let employee = arr.filter(function(el) {
     if (el.firstName === str) { return el }
   })
-  debugger
-  return employee;
+  return employee[0];
 }
 
 /*
