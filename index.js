@@ -41,7 +41,7 @@ function wagesEarnedOnDate(date) {
   return this.payPerHour * hoursWorkedOnDate.call(this, date)
 }
 
-function payrollExpense() {
+function calculatePayroll() {
   
 }
 
